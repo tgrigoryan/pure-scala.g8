@@ -4,7 +4,7 @@ lazy val commonSettings = Seq(
   organization    := "$package$",
   scalaVersion    := "2.12.4",
   version         := "0.1.0-SNAPSHOT",
-  name            := "$name$",
+  name            := "$name$"
 )
 
 scalacOptions     ++= Seq(
