@@ -2,7 +2,7 @@ import Dependencies._
 
 lazy val commonSettings = Seq(
   organization    := "$package$",
-  scalaVersion    := "2.12.4",
+  scalaVersion    := "2.12.7",
   version         := "0.1.0-SNAPSHOT",
   name            := "$name$"
 )
@@ -11,7 +11,7 @@ scalacOptions     ++= Seq(
   "-unchecked",
   "-feature",
   "-deprecation:false",
-//  "-Xfatal-warnings",
+  "-Xfatal-warnings",
   "-Xcheckinit",
   "-Xlint",
   "-Xlint:-nullary-unit",
